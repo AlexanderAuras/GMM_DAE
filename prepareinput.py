@@ -4,7 +4,7 @@
 from torch.utils.data import DataLoader
 from torchvision import transforms, datasets
 
-from dataloder import Dataset, ToTensor
+from dataloader import Dataset, ToTensor
 
 
 def prepare_data_loader(data_dir, batch_size, dataset):
