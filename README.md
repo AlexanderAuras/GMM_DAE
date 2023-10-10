@@ -26,7 +26,7 @@ The provided implementation is tested on MNIST, FASHION MNIST, SVHN and CELEBA i
 
 For dataset preparation use the script *generate_dataset.py* in the *scripts* folder:
 ```bash
-python generate_dataset.py <DATASETNAME> <DATASETPATH>
+python scripts/generate_dataset.py <DATASETNAME> <DATASETPATH>
 ```
 CelebA has a daily quota that can only be overcome by manual downloading the dataset and placing the files in *\<DATASETPATH\>/celeba*.
 
