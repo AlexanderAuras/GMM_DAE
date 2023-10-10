@@ -28,7 +28,13 @@ For dataset preparation use the script *generate_dataset.py* in the *scripts* fo
 ```bash
 python scripts/generate_dataset.py <DATASETNAME> <DATASETPATH>
 ```
-CelebA has a daily quota that can only be overcome by manual downloading the dataset and placing the files in *\<DATASETPATH\>/celeba*.
+CelebA has a daily quota that can only be overcome by manually downloading the dataset and placing the following files in *\<DATASETPATH\>/celeba*:
+ - *img_align_celeba.zip*
+ - *list_attr_celeba.txt*
+ - *identity_CelebA.txt*
+ - *list_bbox_celeba.txt*
+ - *list_landmarks_align_celeba.txt*
+ - *list_eval_partition.txt*
 
 The paths to the datasets need to be saved in the config.ini file.
   
