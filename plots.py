@@ -8,7 +8,7 @@ import torch
 from matplotlib.pyplot import cm
 from torch.autograd import Variable
 from torchvision import transforms, utils
-from dataloder import ToNumpy
+from dataloader import ToNumpy
 from utils import sample_gmm_per_cluster
 matplotlib.use('Agg')
 
