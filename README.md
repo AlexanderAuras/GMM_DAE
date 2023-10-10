@@ -24,16 +24,15 @@ pip install requirements.txt
 
 The provided implementation is tested on MNIST, FASHION MNIST, SVHN and CELEBA images. 
 
-### MNIST, FASHION MNIST
-Resize the original images to size 32x32. Provide the processed images path in the data_dir, line 4 in config.ini for MNIST and line 22 for FASHION MNIST.
+For dataset preparation use the script *generate_dataset.py* in the *scripts* folder:
+```bash
+python generate_dataset.py <DATASETNAME> <DATASETPATH>
+```
+CelebA has a daily quota that can only be overcome by manual downloading the dataset and placing the files in *\<DATASETPATH\>/celeba*.
 
-### SVHN
-Download the SVHN cropped images of size 32x32 and provide the path to the images in line 40 in config.ini
-
-### CELEBA
-Download the images and pre-process the image as follows. Center crop the images to size 140x140 and then resize to 64x64. Provide the dataset path to the line 59 in config.ini.
+The paths to the datasets need to be saved in the config.ini file.
   
-### Usage
+## Usage
 
 To run the code clone the repository and then run
 
