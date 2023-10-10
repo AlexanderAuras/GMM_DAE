@@ -18,7 +18,7 @@ maintained nor monitored in any way.
 3. Activate the environment and run 
  ```bash
 cd GMM_DAE
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ## Dataset
 
