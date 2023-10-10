@@ -2,7 +2,6 @@ import matplotlib
 matplotlib.use('Agg')
 import torch
 import numpy as np
-from torch.utils.data import DataLoader
 import os
 import matplotlib.pyplot as plt
 from skimage import transform
